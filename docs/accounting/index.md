@@ -1,0 +1,105 @@
+# 会计
+
+本栏目收录注册会计师常用的会计类法律法规、会计准则与相关制度。
+
+<div class="sections-grid">
+
+<div class="section-card">
+  <div class="section-card-title">会计法</div>
+  <div class="section-card-desc">中华人民共和国会计法</div>
+  <div class="section-card-links">
+    <a href="/accounting/al/2024">中华人民共和国会计法（2024年修正）</a>
+  </div>
+</div>
+
+<div class="section-card">
+  <div class="section-card-title">企业会计准则</div>
+  <div class="section-card-desc">企业会计准则、应用指南、准则解释、应用案例、实施问答、……</div>
+  <div class="section-card-links">
+    <a href="/accounting/ent/cas/">企业会计准则</a>
+    <a href="/accounting/ent/casg/">应用指南汇编2024</a>
+    <a href="/accounting/ent/casi/">准则解释</a>
+    <a href="/accounting/ent/casc/">应用案例</a>
+    <a href="/accounting/ent/casq/">实施问答</a>
+    <a href="/accounting/ent/fs/">财务报表格式</a>
+    <a href="/accounting/ent/am/">会计核算手册</a>
+    <a href="/accounting/ent/pcs/">产品成本核算制度</a>
+    <a href="/accounting/ent/as/">会计科目和主要账务处理</a>
+    <a href="/accounting/ent/or/">相关其他规定</a>
+  </div>
+</div>
+
+<div class="section-card">
+  <div class="section-card-title">小企业会计准则</div>
+  <div class="section-card-desc">小企业会计准则、实施问答</div>
+  <div class="section-card-links">
+    <a href="/accounting/se/cass/">小企业会计准则</a>
+    <a href="/accounting/se/cassg/">释义2011</a>
+    <a href="/accounting/se/cassq/">实施问答</a>
+    <a href="/accounting/se/or/">相关其他规定</a>
+  </div>
+</div>
+
+<div class="section-card">
+  <div class="section-card-title">企业会计制度</div>
+  <div class="section-card-desc">企业会计制度、问题解答</div>
+  <div class="section-card-links">
+    <a href="/accounting/oe/car/00">企业会计制度</a>
+    <a href="/accounting/oe/carq/">问题解答</a>
+    <a href="/accounting/oe/or/">相关其他规定</a>
+  </div>
+</div>
+
+<div class="section-card">
+  <div class="section-card-title">政府会计准则制度</div>
+  <div class="section-card-desc">政府会计准则、政府会计制度、准则制度解释、应用案例、实施问答、……</div>
+  <div class="section-card-links">
+    <a href="/accounting/gov/gas/">政府会计准则</a>
+    <a href="/accounting/gov/gasg/">准则应用指南</a>
+    <a href="/accounting/gov/gass/">政府会计制度</a>
+    <a href="/accounting/gov/gasi/">准则制度解释</a>
+    <a href="/accounting/gov/gasc/">应用案例</a>
+    <a href="/accounting/gov/gasq/">实施问答</a>
+    <a href="/accounting/gov/pcs/">成本核算指引</a>
+    <a href="/accounting/gov/or/">相关其他规定</a>
+  </div>
+</div>
+
+<div class="section-card">
+  <div class="section-card-title">非营利组织会计制度</div>
+  <div class="section-card-desc">民间非营利组织会计制度、工会会计制度、……</div>
+  <div class="section-card-links">
+    <a href="/accounting/npo/nas/">非营利组织会计制度</a>
+    <a href="/accounting/npo/nasq/">实施问答</a>
+    <a href="/accounting/npo/or/">相关其他规定</a>
+  </div>
+</div>
+
+<div class="section-card">
+  <div class="section-card-title">基金（资金）类会计制度</div>
+  <div class="section-card-desc">社会保险基金、住宅专项维修资金、职业年金基金、……</div>
+  <div class="section-card-links">
+    <a href="/accounting/fund/fas/">基金（资金）类会计制度</a>
+    <a href="/accounting/fund/or/">相关其他规定</a>
+  </div>
+</div>
+
+<div class="section-card">
+  <div class="section-card-title">农村集体经济组织和农民专业合作社会计制度</div>
+  <div class="section-card-desc">农村集体经济组织会计制度、农民专业合作社会计制度、……</div>
+  <div class="section-card-links">
+    <a href="/accounting/rural/ras/">农村集体经济组织和农民专业合作社会计制度</a>
+    <a href="/accounting/rural/rasq/">实施问答</a>
+    <a href="/accounting/rural/or/">相关其他规定</a>
+  </div>
+</div>
+
+<div class="section-card">
+  <div class="section-card-title">会计相关其他规定</div>
+  <div class="section-card-desc">会计行政法规、会计部门规章、会计规范性文件、其他相关法规、……</div>
+  <div class="section-card-links">
+    <a href="/accounting/or/">会计相关其他规定</a>
+  </div>
+</div>
+
+</div>
