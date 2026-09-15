@@ -1,0 +1,120 @@
+import { defineConfig } from 'vitepress'
+
+export default defineConfig({
+  title: '审计文库（MaoDocs）',
+  description: '注册会计师常用法律法规库',
+  lang: 'zh-CN',
+  base: '/WKCdocs/',
+  cleanUrls: true,
+  head: [
+    ['link', { rel: 'icon', href: '/WKCdocs/favicon.ico' }],
+    ['meta', { name: 'theme-color', content: '#5d7ce4' }]
+  ],
+  themeConfig: {
+    logo: '/WKCdocs/logo.svg',
+    siteTitle: '审计文库',
+    nav: [
+      { text: '主页', link: '/' },
+      { text: '会计', link: '/accounting/' },
+      { text: '审计', link: '/auditing/' },
+      { text: '证券', link: '/securities/' },
+      { text: '内控', link: '/control/' },
+      { text: '评估', link: '/appraisal/' },
+      { text: '税务', link: 'https://fgk.chinatax.gov.cn/' },
+      { text: '案例库', link: 'https://case.maoyanqing.com/' }
+    ],
+    sidebar: {
+      '/accounting/': [
+        {
+          text: '会计',
+          items: [
+            { text: '会计法', link: '/accounting/al/2024' },
+            { text: '企业会计准则', link: '/accounting/ent/' },
+            { text: '小企业会计准则', link: '/accounting/se/' },
+            { text: '企业会计制度', link: '/accounting/oe/' },
+            { text: '政府会计准则制度', link: '/accounting/gov/' },
+            { text: '非营利组织会计制度', link: '/accounting/npo/' },
+            { text: '基金（资金）类会计制度', link: '/accounting/fund/' },
+            { text: '农村集体经济组织和农民专业合作社会计制度', link: '/accounting/rural/' },
+            { text: '会计相关其他规定', link: '/accounting/or/' }
+          ]
+        }
+      ],
+      '/auditing/': [
+        {
+          text: '审计',
+          items: [
+            { text: '注册会计师法', link: '/auditing/cpal/' },
+            { text: '中国注册会计师职业道德守则', link: '/auditing/csce/' },
+            { text: '中国注册会计师职业道德守则问题解答', link: '/auditing/csceq/' },
+            { text: '中国注册会计师独立性准则', link: '/auditing/csi/' },
+            { text: '中国注册会计师独立性准则应用指南', link: '/auditing/csig/' },
+            { text: '中国注册会计师执业准则', link: '/auditing/csa/' },
+            { text: '中国注册会计师执业准则应用指南', link: '/auditing/csag/' },
+            { text: '中国注册会计师审计准则问题解答', link: '/auditing/csaq/' },
+            { text: '地方注册会计师协会相关提示', link: '/auditing/lcpa/' },
+            { text: '审计相关其他规定', link: '/auditing/or/' }
+          ]
+        }
+      ],
+      '/securities/': [
+        {
+          text: '证券',
+          items: [
+            { text: '证券法', link: '/securities/sl/' },
+            { text: '证券交易所业务规则', link: '/securities/rules/' },
+            { text: '监管规则适用指引', link: '/securities/garr/' },
+            { text: '上市公司监管指引', link: '/securities/rwas/' },
+            { text: '会计监管风险提示', link: '/securities/rlc/' },
+            { text: '公开发行证券的公司信息披露要求', link: '/securities/idcosp/' },
+            { text: '证券相关其他规定', link: '/securities/or/' }
+          ]
+        }
+      ],
+      '/control/': [
+        {
+          text: '内控',
+          items: [
+            { text: '企业内部控制规范', link: '/control/ent/' },
+            { text: '小企业内部控制规范', link: '/control/se/' },
+            { text: '行政事业单位内部控制规范', link: '/control/api/' }
+          ]
+        }
+      ],
+      '/appraisal/': [
+        {
+          text: '评估',
+          items: [
+            { text: '资产评估法', link: '/appraisal/aal/' },
+            { text: '资产评估准则', link: '/appraisal/aas/' },
+            { text: '资产评估专家指引', link: '/appraisal/aaeg/' },
+            { text: '资产评估操作指引', link: '/appraisal/aaog/' },
+            { text: '地方评协相关提示', link: '/appraisal/las/' },
+            { text: '评估相关其他规定', link: '/appraisal/or/' }
+          ]
+        }
+      ]
+    },
+    search: {
+      provider: 'local'
+    },
+    footer: {
+      message: '注册会计师常用法律法规库',
+      copyright: '© 2026 毛燕庆 · 学习参考复刻版'
+    },
+    outline: {
+      label: '本页目录',
+      level: [2, 3]
+    },
+    lastUpdated: true,
+    lastUpdatedText: '最后更新时间',
+    darkModeSwitchLabel: '切换主题',
+    sidebarMenuLabel: '菜单',
+    returnToTopLabel: '回到顶部',
+    docFooter: {
+      prev: '上一页',
+      next: '下一页'
+    },
+    socialLinks: []
+  }
+})
